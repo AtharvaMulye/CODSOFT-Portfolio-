@@ -511,33 +511,3 @@ body {
   animation: pulse 2s infinite;
 }
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  right: -250px; 
-  width: 250px;
-  height: 100%;
-  padding: 20px;
-  background-color: #3333335b;
-  overflow: auto;
-  transition: right 0.3s ease;
-  z-index: 1;
-}
-
-.sidebar.show {
-  right: 0; 
-}
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar ul li a {
-  color: #ffffff; 
-  text-decoration: none;
-}
-
-.sidebar ul li {
-  display: block;
-}
